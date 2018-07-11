@@ -14,7 +14,8 @@ display: flex;
 margin: 0;
 height: 100%;
 }
-
+.destination:  h2 {
+transform: rotate(0deg);
 .container {
 margin: auto;
 padding: 1em;
@@ -42,7 +43,7 @@ align-items: center;
 text-align: center;
 }
 
-h2 {
+h2 {`transition: transform 0.5s
 margin: 0;
 transform: rotate(-45deg);
 text-shadow: 0 0 5px #01579b;
